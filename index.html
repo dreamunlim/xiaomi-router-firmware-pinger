@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Xiaomi Router Firmware Pinger</title>
+    <style>
+        body {background-color: beige; font-family: verdana;}
+        h1 {color: darkcyan; font-size: 1.7em;}
+        h1#finished {color: darkorange; font-size: 1.55em;}
+        span {font-size: 1.25em;}
+    </style>
+</head>
+<body>
+    <h1>Xiaomi Router Firmware Pinger</h1>
+    <span>---------------------------</span><br>
+    <span>Model: </span><span id="model">none</span><br>
+    <span>Target fw: </span><span id="target-fw">none</span><br>
+    <span>---------------------------</span><br>
+    <span>Total hashes: </span><span id="total-hashes">none</span><br>
+    <span>Total workers: </span><span id="total-workers">none</span><br>
+    <span>Hashes per worker: </span><span id="hashes-per-worker">none</span><br>
+    <span>---------------------------</span><br>
+    <span>Total requests: </span><span id="total-requests">none</span><br>
+    <span>Total time taken: </span><span id="total-time-taken">none</span><br>
+    <span>Rejected requests: </span><span id="rejected-requests">none</span><br>
+    <span>---------------------------</span><br>
+    <span>FW url: </span><span id="fw-url">none</span><br>
+    <h1 id="finished"></h1>
+
+    <script src="ping-firmware.js"></script>
+</body>
+</html>
